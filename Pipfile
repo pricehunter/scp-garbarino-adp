@@ -2,10 +2,14 @@
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+PIPENV_IGNORE_VIRTUALENVS=1
 
 [dev-packages]
 
 [packages]
+requests = "*"
+beautifulsoup4 = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
+requests = "2.23.0"
